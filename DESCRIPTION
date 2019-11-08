@@ -10,8 +10,7 @@ Authors@R: as.person(c(
     "Stacey Boks <Stacey.Boks@gov.bc.ca> [aut]",
     "Hardy Griesbauer <Hardy.Griesbauer@gov.bc.ca> [aut]",
     "Patrick Robinson <Patrick.Robinson@gov.bc.ca> [aut]",
-    "Province of British Columbia" [cph]))
-
+    "Province of British Columbia [cph]"))
 Description: This is a package to create geoPDF files in R.
 License: Apache License (== 2.0) | file LICENSE
 Encoding: UTF-8
