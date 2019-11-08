@@ -1,20 +1,27 @@
 Package: bluedotmapper
-Title: What the Package Does (One Line, Title Case)
+Title: Generate georeferenced PDFs
 Version: 0.0.0.9000
-Authors@R: 
-    c(person(given = "First",
-             family = "Last",
-             role = c("aut", "cre"),
-             email = "first.last@example.com"),
-      person(given = "Province of British Columbia",
-             role = "cph"))
-Description: What the package does (one paragraph).
+Authors@R: as.person(c(
+    "Andy Teucher <andy.teucher@gov.bc.ca> [aut, cre]",
+    "Gail Roth <gail.roth@gov.bc.ca> [aut, cre]",
+    "Meaghan Leslie-Gottschligg <meaghan.leslie-gottschligg@gov.bc.ca> [aut, cre]",
+    "Gabriel Danyagri <Gabriel.Danyagri@gov.bc.ca> [aut, cre]",
+    "Elaine Bambrick <Elaine.Bambrick@gov.bc.ca> [aut, cre]",
+    "Stacey Boks <Stacey.Boks@gov.bc.ca> [aut, cre]",
+    "Hardy Griesbauer <Hardy.Griesbauer@gov.bc.ca> [aut, cre]",
+    "Patrick Robinson <Patrick.Robinson@gov.bc.ca> [aut, cre]",
+    "Province of British Columbia" [cph]))
+
+Description: This is a package to create geoPDF files in R.
 License: Apache License (== 2.0) | file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
+Imports: 
+    sf
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    bcdata
 VignetteBuilder: knitr
