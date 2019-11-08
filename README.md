@@ -7,7 +7,18 @@ bluedotmapper
 
 This is a package to create geoPDF files in R.
 
-custom logos, liability information, attribution, etc.
+### Features
+
+You can create a map with
+
+1.  Basemaps
+2.  Feature layers
+3.  UTM grids
+4.  Legend
+5.  Scale bar
+6.  North arrow
+7.  OPtion for importing custom logos, liability information,
+    attribution, etc.
 
 Map extent can be specified based on input coordinates. User can specify
 dpi and page size (default ANSI E).
@@ -27,6 +38,9 @@ This is a basic example which shows you how to solve a common problem:
 ```
 
 ### Project Status
+
+In development - early stages (A problem for the 2019 BC government R
+hackathon)
 
 ### Getting Help or Reporting an Issue
 
