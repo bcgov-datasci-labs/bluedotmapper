@@ -50,6 +50,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ### Project Status
 
+In development (a probelem for the 2019 Bc govrnment R hackathon)
+
 ### Getting Help or Reporting an Issue
 
 To report bugs/issues/feature requests, please file an [issue](https://github.com/bcgov/bluedotmapper/issues/).
