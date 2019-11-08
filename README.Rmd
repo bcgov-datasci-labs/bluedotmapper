@@ -41,7 +41,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ### Project Status
 
-In development (a probelem for the 2019 Bc govrnment R hackathon)
+In development - early stages (A probelem for the 2019 BC government R hackathon)
 
 ### Getting Help or Reporting an Issue
 
